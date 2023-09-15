@@ -172,6 +172,23 @@
                 }
             }
         }
+        nav{
+            position: absolute;
+            z-index: 3;
+            bottom: 14vh;
+            right: 15vw;
+            display: flex;
+            gap: 30px;
+            color: #fff;
+            cursor: pointer;
+            i{
+                display: inline-block;
+                &.on{
+                    color: #000;
+                    transform: scale(2);
+                }
+            }
+        }
         .btns{
             position: absolute;
             bottom: 10vh;

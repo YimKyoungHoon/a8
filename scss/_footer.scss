@@ -53,6 +53,9 @@ footer{
 @media screen and (max-width: 291px) {
     footer{
         .inner{
+            .pic{
+                display: none;
+            }
             width: 100%;
             display: inline-block;               
             ul{
@@ -61,14 +64,15 @@ footer{
                 justify-content: space-between;
                 flex-wrap: wrap;
                 li{
-                    margin-left: 10px;
+                    margin-left: 5px;
                     a{
-                        padding: 14px 30px;
+                        padding: 14px 0;
                     }
                 }
                 span{
                     a{
-                    padding: 14px 20px;
+                        padding: 14px 20px;
+                        font-size: 25px;
                     }
                     margin-left: 20px;
                 }  
